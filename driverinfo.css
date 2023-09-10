@@ -1,0 +1,85 @@
+.center-header {
+    text-align: center;
+    padding: 20px 0;
+    font-family: "Times New Roman", serif;
+   
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.driver-details {
+    border: 2px solid #000;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.copyright{
+    display: inline-block;
+    font-size: small;
+}
+
+.drivers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+.homepage-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.homepage-button a {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.homepage-button a:hover {
+    background-color: #555;
+}
+
+.text-div {
+    flex: 1; /* Allow the text to take up remaining space */
+    padding: 10px;
+}
+
+.image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.track-image {
+    max-width: 300px; /* Adjust the image width as needed */
+    margin-right: 10px; /* Add spacing between image and track details */
+}
+
+.logoImage{
+    display: inline-block;
+    width: 5%;
+}
+
+.track-info-container {
+    border: 2px solid #000; /* Add a border around the entire container */
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Center content vertically */
+    margin-bottom: 20px; /* Add space between each container */
+}
