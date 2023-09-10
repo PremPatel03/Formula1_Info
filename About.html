@@ -1,31 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Website Title</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="script.js"></script>
+    <link rel="icon" href="https://1000logos.net/wp-content/uploads/2021/06/F1-logo.png">
+    <title>About</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: "Times New Roman", serif;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        .logoImage {
+            width: 50px; /* Adjust the width to make the image smaller */
+            height: auto;
+            display: inline-block;
+        }
+
+        .about-image{
+            width: 30%;
+            margin: 0;
+        }
+        .image-div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 150px;
+            text-align: center;
+        }
+        .centered-box {
+            width: 45%; /* 1/3 of the page width */
+            margin: 0 auto; /* Center the box horizontally */
+            margin-top: 20px;
+            border: 2px solid black; /* Black border */
+            padding: 20px; /* Add some padding for spacing */
+        }
+
+        .centered-box p {
+            text-align: left; /* Align the text to the left within the box */
+        }
+
+        .homepage-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        .homepage-button a {
+            padding: 5px 10px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+
+        .homepage-button a:hover {
+            background-color: #555;
+        }
+       
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Homepage button -->
+    <div class="homepage-button">
+        <a href="F1_Website.html">Homepage</a>
+    </div>
 
-    <main>
-        <section>
-            <h2>Section Title</h2>
-            <p>This is the content of the section.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2003-2023 Formula One World Championship Limited</p>
-    </footer>
-</body>
+    <h1>What is Formula 1?</h1>
+    <div class="image-div">
+        <img class="about-image" src="https://media.formula1.com/image/upload/content/dam/fom-website/manual/Misc/2022manual/2022Races/AustralianGP/Sunday/GettyImages-1239881348.jpg.transform/9col/image.jpg">
+    </div>
+    <div class="centered-box">
+        <p>
+            Formula One, known as F1, is the pinnacle of motorsport, combining speed, precision, and excitement. 
+            In this exhilarating realm, drivers evolve into contemporary heroes, harnessing state-of-the-art racing machinery that surges past 200 miles per hour (320 kilometres per hour).
+            F1 races, commonly referred to as Grand Prix events, provide an abundance of thrilling moments, ranging from squealing 
+            tyres to sophisticated pit stops. But it's not just about racing; it's also a war of engineering and creativity, with teams
+            investing millions to create the perfect racing car. Beyond the technical prowess, F1 is a riveting world of strong rivalries, surprising twists, 
+            and underdog victories that develop throughout a season, making it a captivating mix of sport and drama for fans all over the world.
+        </p>
+    </div>
+<footer>
+    <img class="logoImage" src="https://1000logos.net/wp-content/uploads/2021/06/F1-logo.png" alt="Formula 1 logo">
+    <p class="copyright">&copy; 2003-2023 Formula One World Championship Limited</p>
+</footer>
 </html>
